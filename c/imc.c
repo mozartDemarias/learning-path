@@ -1,4 +1,9 @@
 #include<stdio.h>
+float calcular_imc(float peso, float altura) {
+    float imc = peso / (altura * altura);
+    return imc;
+}
+
 int main(){ 
     float peso, altura, imc;
     printf("Digite seu peso: ");

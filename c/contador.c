@@ -5,6 +5,8 @@ int main(){
 
     n = 3;
     i = 0;
+    // for (i = 0; i <= n; i++){
+    //     printf("contagem: %d\n", i);
     while(i <= n){
         printf("contagem: %d\n", i);
         i++;
