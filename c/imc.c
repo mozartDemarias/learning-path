@@ -4,15 +4,15 @@ int main(){
     printf("Digite seu peso: ");
     scanf("%f", &peso);
     printf("Digite sua altura: ");
-    scanf("f", &altura);
+    scanf("%f", &altura);
     imc = peso / (altura * altura);
-    printf("Seu IMC é: %.2f", imc);
+
     if (imc < 18.5) {
-        printf("Você está abaixo do peso.");
+        printf("Voce esta abaixo do peso.\n");
     } else if (imc < 25) {
-        printf("Você está com peso normal.");
+        printf("Voce esta com peso normal.\n");
     } else {
-        printf("Você está acima do peso.");
+        printf("Voce esta acima do peso.\n");
     }
         
     return 0;   
